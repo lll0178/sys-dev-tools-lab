@@ -1,0 +1,30 @@
+# 所有嵌套的 .git 目录（w1/q03、w1/实验报告/run/q03、w1/系统开发工具·基础 等，避免子模块问题）
+**/.git/
+
+# LaTeX 中间文件（q04 与实验报告编译产物）
+q04/*.aux
+q04/*.fls
+q04/*.fdb_latexmk
+q04/*.log
+w1/q04/*.aux
+w1/q04/*.fls
+w1/q04/*.fdb_latexmk
+w1/q04/*.log
+w1/实验报告/run/q04/*.aux
+w1/实验报告/run/q04/*.fls
+w1/实验报告/run/q04/*.fdb_latexmk
+w1/实验报告/run/q04/*.log
+实验报告/*.aux
+实验报告/*.fls
+实验报告/*.fdb_latexmk
+实验报告/*.log
+实验报告/*.xdv
+w1/实验报告/*.aux
+w1/实验报告/*.fls
+w1/实验报告/*.fdb_latexmk
+w1/实验报告/*.log
+w1/实验报告/*.xdv
+
+# Windows 系统文件
+Thumbs.db
+.DS_Store

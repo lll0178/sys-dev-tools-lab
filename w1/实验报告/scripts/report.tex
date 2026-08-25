@@ -1,0 +1,31 @@
+% 第 4 题 report.tex —— 英文版（推荐，pdflatex 可直接编译）
+% 构建: latexmk -pdf -halt-on-error report.tex
+% 若姓名/学号不符，请替换 \author 行（写拼音或英文名）
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+\title{Tool Report}
+\author{Li Yunlong -- 25030021043}
+\maketitle
+\section{Result}
+
+The mass--energy equivalence is given by Equation~\eqref{eq:einstein}:
+\begin{equation}
+    E = mc^2
+    \label{eq:einstein}
+\end{equation}
+
+The sample data are listed in Table~\ref{tab:sample}.
+\begin{table}[h]
+    \centering
+    \caption{Sample data}
+    \label{tab:sample}
+    \begin{tabular}{cc}
+        \hline
+        alpha & 2 \\
+        beta  & 3 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\end{document}
