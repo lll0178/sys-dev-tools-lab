@@ -25,6 +25,11 @@ w1/实验报告/*.fdb_latexmk
 w1/实验报告/*.log
 w1/实验报告/*.xdv
 
+# Python / Visual Studio 产物（w2 第 5—8 题）
+.vs/
+__pycache__/
+*.pyc
+
 # Windows 系统文件
 Thumbs.db
 .DS_Store
