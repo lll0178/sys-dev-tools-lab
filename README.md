@@ -1,6 +1,6 @@
-# 系统开发工具基础 · 每周课上实验检查题（第 1—8 题）
+# 系统开发工具基础 · 每周课上实验检查题（第 1—12 题）
 
-实验内容整理在 `w1/`（第 1—4 题）与 `w2/`（第 5—8 题）目录下：
+实验内容整理在 `w1/`（第 1—4 题）、`w2/`（第 5—8 题）与 `w3/`（第 9—12 题）目录下。
 
 ## w1 · 第 1—4 题
 
@@ -18,8 +18,17 @@
 - `w2/q07` 用调试器定位归并排序缺陷（Debugging / pdb / pytest）
 - `w2/q08` 先测量，再优化慢速词频程序（Profiling / cProfile）
 
-每题的操作步骤、原理说明与实测结果见 [`w2/README.md`](w2/README.md)。
+操作步骤、原理说明与实测结果见 [`w2/README.md`](w2/README.md)；实验报告见 `w2/实验报告/`。
+
+## w3 · 第 9—12 题
+
+- `w3/q09` 从源码构建并在干净环境安装 Wheel（Packaging / python -m build / venv）
+- `w3/q10` 让编程智能体进入可验证的修复循环（TDD + AI agent + ai_log）
+- `w3/q11` 把"无法处理"的协作材料改成可执行信息（communication.md）
+- `w3/q12` 修复一个可复现的线性回归训练循环（Python + PyTorch CPU）
+
+操作步骤、原理说明与实测结果见 [`w3/README.md`](w3/README.md)。
 
 ## 环境
 
-Windows 11 + WSL2（Ubuntu 26.04 LTS），bash + GNU coreutils，git，TeX Live（latexmk/xelatex），Python 3.14 + pytest + ruff。
+Windows 11 + WSL2（Ubuntu 26.04 LTS），bash + GNU coreutils，git，TeX Live（latexmk/xelatex），Python 3.14 + pytest + ruff + PyTorch 2.9.1（CPU）。
